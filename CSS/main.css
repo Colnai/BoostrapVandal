@@ -1,0 +1,36 @@
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0.9375rem  ;
+    border-radius: 0.625rem;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color: grey;
+    transition: all 0.5s linear;
+    border-radius: 0.625rem;
+}
+
+.tamaniopic{
+    height: 40rem;
+    width: auto;
+    object-fit: cover;
+}
+
+.tamaniopic div img{
+    object-fit: cover;
+    height: 40rem;
+}
+
+.mainvh{
+    min-height: calc(100vh - 72px - 150px );
+}
+
+body{
+    background-color: #696969;
+}
+
+.chicharra{
+    height: 300px; 
+    display: flex;
+    justify-content: center;  
+}
